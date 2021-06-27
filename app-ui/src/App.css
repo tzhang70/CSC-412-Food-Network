@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+.text{
+    text-align: center;
+}
+
+body {
+    background: #ECEFF1;
+    background-image:url("https://www.foodwise.com.au/wp-content/uploads/2012/08/Background_ChoppingBoard21.jpg"); 
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.form {
+    background: white;
+    max-width: 360px;
+    margin: 100px auto 16px;
+    padding: 32px 24px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.form h2 {
+    color: #ffa100;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p.error {
+    color: red;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+p.success {
+    color: green;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.form input[type=text], .form input[type=password], .search {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #039be5;
+    text-transform: uppercase;
+    color: white;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.top-button {
+    background-color: white; /* Green */
+    border: 2px solid #e7e7e7;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.top-submit {
+    border: 1.5px solid #4CAF50;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.recipe-form {
+    background: white;
+    border-radius: 3px;
+    padding: 10px 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.recipe-form * {
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.recipe {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.76);
+    border: 7px groove wheat;
+    border-radius: 25px;
+    padding: 10px 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    margin: 10px 0px;
+    overflow: hidden;
+}
+
+.recipe-title {
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.recipe-description {
+    overflow-wrap: break-word;
+    background-color: #a4b3645b;
+    padding: 5%;
+    border-radius: 15px;
+    margin-right: 5%;
+    width: 60%;
+    float: left;
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    white-space: pre-line;
+}
+
+.recipe-ingredients {
+    overflow-wrap: break-word;
+    background-color: #a4b3645b;
+    padding: 5%;
+    border-radius: 15px;
+    width: 35%;
+    float: left;
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    font-style: italic;
+    white-space: pre-line;
+}
+.recipe-instructions {
+    overflow-wrap: break-word;
+    background-color: #a4b3645b;
+    padding: 5%;
+    border-radius: 15px;
+    margin: 2%;
+    width: 96%;
+    float: left;
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    white-space: pre-line;
+}
+
+
+.recipe-user {
+    float: left;
+    text-align: left;
+    font-size: 12px;
+    line-height: 0px
+}
